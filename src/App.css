@@ -1,0 +1,41 @@
+body {
+    background-color: #94000d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vw;
+    margin: 20px auto;
+  
+}
+
+.stevie img, 
+.lindsey img, 
+.mick img,
+.john img,
+.fleetwood img {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    border: solid 2px  rgb(234, 209, 135);
+    border-radius: 12px;
+  
+}
+
+h2, h3 {
+    color:  rgb(234, 209, 135);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+}
