@@ -9,6 +9,14 @@ body {
     flex-direction: column;
     font-family: 'Ruslan Display', cursive;
 }
+main {
+    width: 95vw;
+    height: 95vh;
+    border: solid 2px  rgb(234, 209, 135);
+    border-radius: 12px;
+    margin: 20px auto;
+    padding-bottom: 10px;
+}
 
 .logo img {
     display: flex;

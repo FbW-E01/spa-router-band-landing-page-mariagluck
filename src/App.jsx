@@ -12,7 +12,7 @@ import './App.css';
 
 export default function App() {
     return (
-        <div>
+        <main>
             <Heading />
             <Navigation />
             <Switch>
@@ -35,6 +35,6 @@ export default function App() {
                    <Drums />
                 </Route> 
             </Switch>
-        </div>
+        </main>
     );
 }
